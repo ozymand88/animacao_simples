@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animação</title>
+        <meta charset="utf-8">
+        
+        <!--NORMALIZE CSS -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+		<!--ESTILO CUSTOMIZADO -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+		<!--[if IE]>
+			<script src="http://cdnjs.cloundflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+        
+        <style> 
+            div {
+            position: relative;
+            animation: movimento 5s infinite;
+            }
+
+            @keyframes movimento {
+                100% {top: 200px; background: yellow; width: 300px;}
+                from {/*inicio*/
+                    color: red;
+                    font-size: 10px;
+                    background: red;
+                    width: 100px;
+                    top: 0;
+                    left: 0;
+                }
+                to {/*final*/
+                    color: blue;
+                    font-size: 30px;
+                    width: 300px;
+                    top: 200px;
+                    left: 200px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+    <h1>Simples Animatção: Criado na aula de HTML5 E CSS3 - Recursos Especiais</h1>
+
+    <p><strong>Note:</strong>
+        Alteração simples de background para texto em animação.
+    </p>
+
+    <div class="div">Animation</div>
+
+    </body>
+</html>

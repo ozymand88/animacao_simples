@@ -1,0 +1,27 @@
+/**********
+ANIMAÇÕES*/
+
+@keyframes animacao-caixa {
+	from {/*inicio*/
+		color: red;
+		font-size: 10px;
+		top: 0;
+		left: 0;
+	}
+	to {/*final*/
+		color: blue;
+		font-size: 30px;
+		top: 200px;
+		left: 200px;
+	}
+}
+
+.caixa2 {
+		margin: 10px;
+		position: fixed;
+		-webkit-animation: animacao-caixa 5s 3s 2 alternate;
+		-moz-animation: animacao-caixa 5s 3s 2 alternate;
+		-o-animation: animacao-caixa 5s 3s 2 alternate;
+		animation: animacao-caixa  5s 2 alternate;
+	
+}
